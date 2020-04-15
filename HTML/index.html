@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="utf8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    </head>
+    <body>
+        
+
+        <button class="btn btn-primary" id="sendMessage">
+            Send Message
+        </button>
+        <label for="texto">Texto: </label>
+        <input type="text" name="texto" id="texto" class="btn btn-outline-secondary">
+
+        <script>
+            const ws = new WebSocket("ws://localhost:8080");
+
+            ws.addEventListener("open", event => {
+                alert('connected');
+            });
+
+            ws.addEventListener("message", event => {
+                alert('recived: ' + event.data)
+            });
+
+            $("#sendMessage").on("click", () => {
+                if (ws.readyState == ws.OPEN) {
+                    ws.send($("#texto").val());
+                }
+            })
+                
+        </script>
+    </body>
+</html>
