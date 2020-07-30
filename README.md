@@ -39,3 +39,13 @@ int main() {
 	Sleep(INFINITE);
 } 
 ```
+
+# How to use
+1 - You just download this project.
+`git clone https://github.com/Withoutbytes/Test-Websocket-cpp.git`
+2 - Open this is visual studio.
+
+3 - Compile and run the project.
+
+4 - Open .html file in root folder with any browser.
+
