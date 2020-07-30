@@ -4,7 +4,7 @@ This is a Simple Websocket example for cpp this project don't need any dlls only
 
 Client and Server suport libraly
 
-this libraly was not madded by me credits:
+this library was not madded by me credits:
 https://github.com/machinezone/IXWebSocket
 
 ```CPP
