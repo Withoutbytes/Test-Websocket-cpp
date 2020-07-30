@@ -84,9 +84,6 @@
     <ClCompile Include="ixwebsocket\IXSocketFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ixwebsocket\IXSocketOpenSSL.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ixwebsocket\IXBench.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -192,9 +189,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ixwebsocket\IXUserAgent.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ixwebsocket\IXSocketOpenSSL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ixwebsocket\IXSelectInterrupt.h">

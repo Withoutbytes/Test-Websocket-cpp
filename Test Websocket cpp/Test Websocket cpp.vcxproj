@@ -152,7 +152,6 @@
     <ClCompile Include="ixwebsocket\IXSocket.cpp" />
     <ClCompile Include="ixwebsocket\IXSocketConnect.cpp" />
     <ClCompile Include="ixwebsocket\IXSocketFactory.cpp" />
-    <ClCompile Include="ixwebsocket\IXSocketOpenSSL.cpp" />
     <ClCompile Include="ixwebsocket\IXSocketServer.cpp" />
     <ClCompile Include="ixwebsocket\IXSocketTLSOptions.cpp" />
     <ClCompile Include="ixwebsocket\IXUdpSocket.cpp" />
@@ -188,7 +187,6 @@
     <ClInclude Include="ixwebsocket\IXSocket.h" />
     <ClInclude Include="ixwebsocket\IXSocketConnect.h" />
     <ClInclude Include="ixwebsocket\IXSocketFactory.h" />
-    <ClInclude Include="ixwebsocket\IXSocketOpenSSL.h" />
     <ClInclude Include="ixwebsocket\IXSocketServer.h" />
     <ClInclude Include="ixwebsocket\IXSocketTLSOptions.h" />
     <ClInclude Include="ixwebsocket\IXUdpSocket.h" />
