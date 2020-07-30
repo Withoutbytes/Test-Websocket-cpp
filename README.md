@@ -49,5 +49,5 @@ int main() {
 
 3 - Compile and run the project.
 
-4 - Open .html file in root folder with any browser.
+4 - Open /HTML/index.html file in root folder with any browser.
 
