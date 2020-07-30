@@ -1,7 +1,7 @@
 # Test-Websocket-cpp
 
-This is a Simple Webscoket example for cpp this project don't need any dlls only need you copy the ixwebsocket folder to your project folder and fallow the example:
-
+This is a Simple Websocket example for cpp this project don't need any dlls only need you copy the ixwebsocket folder to your project folder and fallow the example:
+```CPP
 #include "../ixwebsocket/IXNetSystem.h"
 #include "../ixwebsocket/IXWebSocketServer.h"
 #include <Windows.h>
@@ -32,3 +32,4 @@ int main() {
 	std::cout << "Server on" << std::endl;
 	Sleep(INFINITE);
 } 
+```
